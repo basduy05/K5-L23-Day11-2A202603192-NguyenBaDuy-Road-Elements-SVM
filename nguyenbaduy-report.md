@@ -53,11 +53,17 @@ Bản nộp dùng manifest revision 3. Hai ZIP chỉ chứa `annotations.xml`, k
 
 ## 6. Ảnh chụp màn hình
 
-Bốn minh chứng dưới đây đang chờ bổ sung từ project CVAT của bài làm.
+Ảnh chụp thực tế đã cắt lấy nội dung label, ảnh gán nhãn và đoạn XML trích từ ZIP bản 3. Các ảnh A12/B04 ghi nhận trạng thái trên CVAT lúc chụp. Bản sửa R1 ở B03 hiện nằm trong ZIP cục bộ.
 
-1. Tab Labels của project.
-2. Một ảnh camera trước đã gán đủ, ví dụ A12.
-3. Một ảnh fisheye phóng to đoạn polyline cong.
+1. Cấu hình label của project.
+
+![Cấu hình label project #9](docs/submission-evidence/project-labels.png)
+2. Ảnh camera trước A12 đã gán nhãn.
+
+![Ảnh A12 trên CVAT](docs/submission-evidence/front-a12.png)
+3. Ảnh fisheye B04 phóng to đoạn polyline cong.
+
+![Ảnh B04 trên CVAT](docs/submission-evidence/fisheye-b04.png)
 4. Đoạn XML trích từ `nguyenbaduy-front.zip`, bản 3, ảnh A12_c0f978fa-9b4e623f.jpg.
 
 ```xml
@@ -69,7 +75,9 @@ Bốn minh chứng dưới đây đang chờ bổ sung từ project CVAT của b
     </polyline>
 ```
 
-Ảnh chụp màn hình XML vẫn chờ bổ sung.
+![Đoạn lane của A12 trích từ XML bản 3](docs/submission-evidence/xml-a12-r3.png)
+
+Job #35 hiển thị trạng thái `in progress` tại thời điểm chụp. Cần đồng bộ các chỉnh sửa cục bộ vào CVAT và hoàn tất job trước lần export tiếp theo.
 
 Các câu hỏi cần phản hồi để chốt bài:
 
