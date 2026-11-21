@@ -58,7 +58,25 @@ Bốn minh chứng dưới đây đang chờ bổ sung từ project CVAT của b
 1. Tab Labels của project.
 2. Một ảnh camera trước đã gán đủ, ví dụ A12.
 3. Một ảnh fisheye phóng to đoạn polyline cong.
-4. Đoạn XML có `<polyline label="lane">`.
+4. Đoạn XML trích từ `nguyenbaduy-front.zip`, bản 3, ảnh A12_c0f978fa-9b4e623f.jpg.
+
+```xml
+<polyline label="lane" source="manual" occluded="0" points="391.61,444.31;479.94,395.57" z_order="0">
+      <attribute name="position">L1</attribute>
+      <attribute name="style">solid</attribute>
+      <attribute name="color">white</attribute>
+      <attribute name="kind">single</attribute>
+    </polyline>
+```
+
+Ảnh chụp màn hình XML vẫn chờ bổ sung.
+
+Các câu hỏi cần phản hồi để chốt bài:
+
+- Coach xác nhận A05 không nhìn thấy L1/R1 để miễn hai cảnh báo QC1-02.
+- Nhật Anh tái kiểm R1 mới ở B03 trong bản 3 và cập nhật kết luận.
+- Coach chốt màu tín hiệu người đi bộ sáng trắng ở A08 trong schema hiện tại, cùng phạm vi nhãn cần có ở B03.
+
 
 ## 7. Tự đánh giá
 Lỗi bạn mắc nhiều nhất hôm nay (theo mã QC1-xx), và cách tránh ở Ngày 20:  
